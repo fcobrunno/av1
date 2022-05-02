@@ -5,9 +5,15 @@
 }
 
 #header h1 {
-  padding-bottom: 1rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
+}
+
+#header img {
+  margin-top: 1rem;
+  width: 220px;
+  height: 220px;
 }
 
 .img-icon {
@@ -18,7 +24,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: #e0e0e0;
 }
 
 #session-ben .col {
@@ -31,3 +37,44 @@ body {
 #session-ben .col h6 {
   margin-top: 0.5rem;
 }
+
+.modificado {
+  text-align: center;
+}
+
+.modificado p {
+  margin-bottom: 0rem;
+}
+
+.desc {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.nome {
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+.profissao {
+  margin-bottom: 30px;
+}
+
+.modificado img {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.formulario-modificado {
+  text-align: center;
+}
+
+.formulario-modificado p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.rodape {
+  display: flex;
+}
+
